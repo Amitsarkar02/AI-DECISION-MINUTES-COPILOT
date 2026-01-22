@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 from openai import OpenAI
 
-# 🔑 THIS LINE IS CRITICAL
+
 load_dotenv()
 
 # Optional debug (remove later)
@@ -18,3 +18,4 @@ def transcribe(audio_path: str) -> str:
             model="gpt-4o-transcribe"
         )
     return transcript.text
+
