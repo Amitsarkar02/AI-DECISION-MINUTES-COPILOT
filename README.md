@@ -40,3 +40,21 @@ Other
 Uvicorn
 
 Git + GitHub
+
+Decision-Minutes-Copilot/
+│
+├── app/                 # FastAPI backend
+│   ├── main.py
+│   ├── pipeline.py
+│   ├── schemas.py
+│   └── services/
+│
+├── frontend/            # Streamlit frontend
+│   └── streamlit_app.py
+│
+├── sample_audio/
+├── .env                 # ignored
+├── .gitignore
+├── README.md
+└── requirements.txt
+
